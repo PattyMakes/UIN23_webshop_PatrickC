@@ -16,5 +16,27 @@ body {
     background-image: url('images/mainbackground.png');
     font-family: 'Rubik', sans-serif;
     font-size: var(--rootsize);
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
 
+div.container {
+    width: 100%;
+    max-width: var(--maxwidth);
+    margin: 0 auto;
+    background-color: var(--white);
+    overflow: hidden;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+header a img {
+    max-width: 250px;
+    height: auto;
 }
